@@ -430,6 +430,10 @@ body {
 
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
+    .main {
+        margin-top: 120px; 
+    }
+    
     .header-container {
         flex-direction: column;
         padding: 15px 20px;
