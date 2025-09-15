@@ -1,12 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BH Experiências - Descubra Belo Horizonte</title>
+    <meta name="description" content="Descubra os melhores lugares, atrações, eventos e experiências que Belo Horizonte tem a oferecer. Guia completo da capital mineira.">
+    <meta name="keywords" content="Belo Horizonte, turismo, atrações, eventos, restaurantes, trilhas, BH">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="BH Experiências - Descubra Belo Horizonte">
+    <meta property="og:description" content="Descubra os melhores lugares, atrações, eventos e experiências que Belo Horizonte tem a oferecer.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Cabeçalho principal com navegação -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>BH Experiências</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#atracoes" class="nav-link">Atrações</a></li>
+                    <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                    <li><a href="#restaurantes" class="nav-link">Restaurantes</a></li>
+                    <li><a href="#trilhas" class="nav-link">Trilhas</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="main">
+        <!-- Seção Hero/Banner Principal -->
+        <section class="hero" id="inicio">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Descubra Belo Horizonte</h2>
+                    <p class="hero-subtitle">A capital mineira te espera com suas montanhas, cultura rica, gastronomia única e experiências inesquecíveis</p>
+                    <button class="hero-button">Explorar Agora</button>
+                </div>
+                <div class="hero-image">
+                    <!-- COMENT: Usado o PxHere pois o Lorem Picsum não teria imagens reais de BH (ou ao menos, nao achei). É de uso livre, sem restrições. -->
+                    <img src="https://c.pxhere.com/photos/e1/8c/belo_horizonte_minas_brazil_corral_saw_mountain-1054392.jpg!d" alt="Vista de Belo Horizonte com montanhas ao fundo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Destaques -->
+        <section class="highlights">
+            <div class="highlights-container">
+                <h2 class="section-title">Principais Experiências</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="card-icon">📸</div>
+                        <h3 class="card-title">Pontos Turísticos</h3>
+                        <p class="card-description">Explore os principais cartões postais e marcos históricos da cidade</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="card-icon">🍽️</div>
+                        <h3 class="card-title">Gastronomia Local</h3>
+                        <p class="card-description">Saboreie o melhor da culinária mineira em restaurantes únicos</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="card-icon">🎭</div>
+                        <h3 class="card-title">Eventos Culturais</h3>
+                        <p class="card-description">Participe da rica agenda cultural da capital mineira</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Experiências Detalhadas -->
+        <section class="experiences" id="atracoes">
+            <div class="experiences-container">
+                <h2 class="section-title">Lugares Imperdíveis</h2>
+                <!-- COMENT: Todas as imagens utilizadas abaixo são de propriedade do autor. -->
+                <div class="experiences-grid">
+                    <article class="experience-article">
+                        <div class="article-image">
+                            <img src="images/mercado-novo.jpeg" alt="Mercado Novo de Belo Horizonte">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Mercado Novo</h3>
+                            <p class="article-description">Centro de compras popular no coração de BH, oferecendo variedade de produtos, gastronomia e cultura local.</p>
+                            <a href="#" class="article-link">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <article class="experience-article">
+                        <div class="article-image">
+                            <img src="images/parque-municipal.jpeg" alt="Parque Municipal Américo Renné Giannetti">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Parque Municipal</h3>
+                            <p class="article-description">Oásis verde no centro da cidade, ideal para caminhadas, relaxamento e contato com a natureza urbana.</p>
+                            <a href="#" class="article-link">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <article class="experience-article">
+                        <div class="article-image">
+                            <img src="images/centro.jpeg" alt="Centro Histórico de Belo Horizonte">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Centro Histórico</h3>
+                            <p class="article-description">Berço da capital planejada, com arquitetura eclética e rica história urbana para descobrir.</p>
+                            <a href="#" class="article-link">Saiba mais</a>
+                        </div>
+                    </article>
+
+                    <article class="experience-article">
+                        <div class="article-image">
+                            <img src="images/serra-do-curral.jpeg" alt="Serra do Curral vista de Belo Horizonte">
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">Serra do Curral</h3>
+                            <p class="article-description">Símbolo natural de BH, oferece trilhas e mirantes com vistas espetaculares da cidade.</p>
+                            <a href="#" class="article-link">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Newsletter -->
+        <section class="newsletter" id="contato">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">Receba Novidades de BH</h2>
+                    <p class="newsletter-description">Fique por dentro dos melhores eventos, novas atrações e dicas exclusivas sobre Belo Horizonte</p>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" class="form-input" required>
+                        </div>
+                        <button type="submit" class="form-button">Assinar Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">BH Experiências</h3>
+                    <p class="footer-description">Seu guia completo para descobrir o melhor de Belo Horizonte</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio" class="footer-link">Início</a></li>
+                        <li><a href="#atracoes" class="footer-link">Atrações</a></li>
+                        <li><a href="#eventos" class="footer-link">Eventos</a></li>
+                        <li><a href="#contato" class="footer-link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 BH Experiências. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
